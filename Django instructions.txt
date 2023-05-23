@@ -1,0 +1,48 @@
+نقوم بإنشاء ريبو خاص بالمشروع على الغيت هب تكون 
+gitgnore =python 
+نعمل اشارة صح على 
+Add readme + .gitnore
+
+***************************************************
+To create Django Project , Open command prompt and write the follow instructions:
+1-cd Desktop
+2-mkdir Server
+3-cd Server
+4-mkdir Rx-Reader-server باسم الريبو الخاص بالمشروع
+5-cd Rx-Reader-server
+6-git clone https://github.com/KhNour/RxReader-server.git رابط الريبو 
+
+*****************************************************
+Open pycharm and write the follow instructions in terminals:
+
+1-git checkout -b Setup-basics هن تم إنشاء برانش جديد في الريبو 
+2-python -m venv env
+3-env\Scripts\activate
+4-pip install django
+5-python.exe -m pip install --upgrade pip
+6-pip install markdown
+7-pip install django-filter 
+8-pip install djangorestframework
+9-django-admin startproject project .          (برا manage.py النقطة لحتى يعمل البروجيكت بالفولدر الموجود فيه ويحط ملف )
+10-python manage.py startapp app
+11-python manage.py migrate
+12-python manage.py makemigrations
+13-python manage.py createsuperuser(adminServer , adminServer@gmail.com , password:AdminRxReaderServer5)
+14-python manage.py runserver
+
+
+to run the server write:
+1-python manage.py migrate
+2-python manage.py makemigrations
+3-python manage.py runserver
+
+to break server press ctrl+c
+
+
+لحتى نرفع الكود على البرنش منكتب التعليمات التالية :
+git add .
+git commit -am "Setup-basics"
+git push
+
+
+
